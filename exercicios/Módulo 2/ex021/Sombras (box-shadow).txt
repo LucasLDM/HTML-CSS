@@ -1,0 +1,4 @@
+Sombras (box-shadow)
+
+box-shadow: horizontal vertical espalhamento cor;
+--> box-shadow: 1px 1px 1px black;

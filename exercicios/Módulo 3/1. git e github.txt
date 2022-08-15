@@ -1,0 +1,27 @@
+	<< O que é Git e GitHub? >>
+
+•Repositório local/remoto
+
+Repositórios são locais que servem para guardar coisas.
+
+Primeira situação:
+- Se caso algum dia você quiser aprimorar um projeto e depois achar que não ficou como você queria, como que vai fazer? Se não fez uma cópia de segurança, já era!
+
+Porém, existe uma coisa chamada "gerenciador de versões" que guarda todas as versões do seu site, e você pode voltar ou avançar sempre que quiser. O nome desse software é GIT, criado pelo Linus Torvalds, o mesmo criador do Linux. Mas lembrando que ele só mantém as versões dentro do SEU COMPUTADOR.
+
+Segunda situação:
+- E se o seu computador "der pau"? O GIT pode ter guardado todas as versões mas se o seu PC não funcionar mais, você simplesmente perdeu todo o seu trabalho.
+
+Terceira situação:
+- Agora vamos dizer que o seu PC está em perfeito estado. O que fazer caso queira mostrar um projeto seu pra um amigo usando outro computador? Daria para "zipar" tudo mas não seria tão prático e talvez a outra pessoa não saiba como funciona isso. Ou melhor, e se for seu cliente?
+
+É aí que entra o GitHub, que é um repositório online (servidor) que te permite armazenar seus projetos. Assim, seus amigos e clientes vão poder acessá-los.
+
+O GitHub também te permite trabalhar em equipe. Cada um vai ter seu repositório local, mas eles podem, também, atualizar o repositório remoto!
+
+Então, resumindo, GIT guarda as versões do seu projeto no seu computador e o GitHub vai fazer um backup disso tudo na nuvem! E isso de forma gratuita.
+
+* Repositório local: GIT
+
+* Repositório remoto: GitHub
+

@@ -1,0 +1,44 @@
+Todo elemento do HTML é renderizado pelo navegador como uma box. Essa box pode ser alterada com as propriedades CSS: margin, border, padding e height/width. O margin vai movimentar o elemento, para a esquerda, direita, para cima ou para baixo. O border é a borda, dá pra definir o tamanho de borda, cor e modo de exibição. O padding é o preencimento, ele vai colocar o um espaçamento dentro do elemento. Width/height representam o comprimento e altura do elemento, um texto, uma imagem, um vídeo. Há, também, o box-level e o inline-level.
+
+Box-level --> Enquanto você está escrevendo, quando você criar uma box level, ela irá pular um "parágrafo", onde seu tamanho é igual ao comprimento da tela do navegador. Depois disso, irá mostrar a continuação do seu texto.
+
+
+Inline-level --> Este por outro lado, cria um espaço como o box-level, porém ele é pequeno suficiente pra ficar entre palavras em um texto. Pra imaginar como poderia ser, pense naquelas revistas em que temos uma imagem no meio e palavras que são escritas ao redor dela!! 
+=> Tags: span, a, 
+
+---------------------------------------------------------------------------------------------------------------
+*OBS: display: block; é box-level. É encontrado nas tags de parágrafo, título, subtítulo, etc
+
+* display: block; --> transforma o conteúdo em box-level.
+* display: inline; --> transforma o conteúdo em inline-level. Mas aqui você não pode alterar o width e height.
+* display: inline-block; --> são as duas coisas, então aqui ele é inline-level mas também te permite configurar o width e height, por exemplo.
+---------------------------------------------------------------------------------------------------------------
+*OBS: 
+border-width: 10px; --> Espessura da borda
+border-style: solid;
+border-color: black;
+---------------------------------------------------------------------------------------------------------------
+margin é usado para mover um elemento.
+* margin: auto; --> centraliza o elemento na tela
+---------------------------------------------------------------------------------------------------------------
+O outline fica entre a borda e a margem. Para facilitar, imagine que o conteúdo está com um border-style: solid; . Colado com esta borda, mas do lado de fora vai ser o outline. O outline é parecido com a borda, veja:
+
+outline-width: 5px; --> espessura
+outline-style: dashed; --> tracinhos
+outline-color: red;
+---------------------------------------------------------------------------------------------------------------
+
+[Shorthands]
+
+border: width style color; --> border: 10px solid black;
+
+outline: width style color; --> 5px dashed salmon;
+
+padding: top right bottom left --> 
+padding: 10px; ou 
+padding: 10px 10px 20px 30px; ou 
+
+margin: top right bottom left; -->
+margin: 10px 20px 10px 30px; ou
+margin: 10px; 
+margin: 10px auto 10px auto;

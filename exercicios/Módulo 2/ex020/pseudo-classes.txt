@@ -1,0 +1,82 @@
+Pseudo-classes: No CSS podemos chamá-las com " : " (dois pontos).
+
+Ex: div:hover{
+	background-color: yellow;
+}
+
+Nesse caso, sabemos que no momento a cor dos quadrados é cinza. Mas ao passar o mouse sobre eles, por causa da pseudo-classe hover, irá mudá-la para amarelo!
+----------------------------------------------------------------------------------------------------------------------
+no <head>
+
+<style>
+	div{
+		display: inline-block;
+		background-color: grey;
+		border: 1px solid black;
+		text-align: center;
+		height: 200px;
+		width: 200px;
+	}
+
+</style>
+
+Também podemos acessar uma tag específica dentro de outra:
+
+<style>
+	div > p {
+		display: none;
+	}
+
+	div:hover > p{
+		display: block;
+		color: white;
+		background-color: red;
+		width: 300px;
+	}
+	
+	div:hover {
+		color: red;
+	}
+</style>
+
+<body>
+	<p> Passe o mouse sobre o texto abaixo.</p>
+	<div>
+		Passe o mouse aqui.
+		<p>TEXTO ESCONDIDO</p>
+	</div>
+</body>
+
+Com isso, a gente já pôde ter um protótipo de menu!
+
+
+[RESUMO]
+
+pseudo-classes
+
+:hover -> oq fará quando o mouse estiver sobre o conteúdo (mudar de cor, por exemplo)
+
+:visited -> por padrão, quando clicamos num link, ele ficará numa cor azul escura ou roxa, ou seja foi visitado. Esta pseudo-classe te dá a opção de personalizar isso tbm.
+
+:active -> pode mudar a cor do conteúdo enquanto você clica e segura o botão esquerdo do mouse
+----------------------------------------------------------------------------------------------------------------------
+
+Pseudo-elemento: são criados com :: (dois pontos 2x). 
+
+Ex: h1::after{
+	content: ' [link]';
+	text-decoration: none;
+	font-weight: normal;
+	color: darkgrey;
+	}
+
+Com isso, se eu tiver,dentro da tag h1, "Olá, mundo!", aparecerá depois (after) dele o que está dentro do conteúdo ' [link]' ---> Olá,mundo! [link].
+
+Serve com o "before" também. 
+
+
+
+
+
+
+

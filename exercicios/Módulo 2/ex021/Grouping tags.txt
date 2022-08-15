@@ -1,0 +1,2 @@
+Grouping tags (são duas) --> div(box-level) e span(inline-level). No HTML4 foi usado demasiadamente a ponto de poluir muito o código.
+No HTML5, onde a semântica domina, temos as grouping tags "header","main","footer". Elas ainda são divs, só que mais especiais e são semânticas.

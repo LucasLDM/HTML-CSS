@@ -1,0 +1,26 @@
+Abrindo o GitHub Desktop, verifique se está na pasta desejada e clique em "Abrir com o Visual Studio Code". Ele irá fazer isso e perceba que temos o arquivo "README.md". Abra ele e verá que tem um texto digitado automaticamente. Você pode escrever o que quiser ali dentro. Feito isso, perceba que no VS Code, abaixo do símbolo de lupa, há o controle de código-fonte. Assim que você escrever algo no README, um número vai aparecer naquele símbolo, o que quer dizer que houve uma atualização no código.
+
+Agora volte no GitHub Desktop e perceba que já foi reconhecida a alteração. E para atualizar de vez o repositório local, vá em "Update README.md", perto da sua foto de perfil, e escreva algo. No caso digitei "Atualizei meu repositório local.". Clique em "Commit to main" e pronto!
+
+• E o que fazer para atualizar o repositório remoto (GitHub)?
+
+Vá para a sua página e procure pelo seu repositório, entre na pasta README e perceba que não houve alteração.
+
+Para isso, volte no GitHub Desktop e procure por "Push Origin" (origin seria o github) e clique nele. É só esperar um tempo e ele vai atualizar tudo pra você. Pra ter certeza, abra a sua página novamente, vá no README e veja com seus próprios olhos!!
+
+
+Vamos dizer que ao publicar um repositório você fez ele privado, ao invés de público. Se isso acontecer, vá na sua página no site e procure por este repositório. Abra ele e vá em configurações (Settings). Por fim, role até o fim e você irá ver a opção "Make Public". É só confirmar e pronto, já estárá público!!
+
+
+Se quiser deletar um repositório, você precisa deletar não só o remoto, mas o local também.
+
+1) Local: Entre no GitHub Desktop e entre na pasta que quer deletar. Vá na aba "Repository" na parte superior e clique em "Remove". Deve aparecer a opção de jogar para a lixeira, então recomendo que a marque.
+
+Agora deletamos o repositório local, só falta o remoto.
+
+2) Remoto: Entre no site e na pasta que quer deletar. Vá nas configurações e lá em baixo você verá a opção "Delete this repository". Confirme e aí sim pode apagar de vez. 
+
+Pronto! Agora o repositório local e o remoto não existem mais! 
+
+
+*OBS: Commits significa criar versões do seu código.
