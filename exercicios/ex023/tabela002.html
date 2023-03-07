@@ -14,11 +14,33 @@
         table{
             width: 500px;
             border-collapse: collapse;
+            position: relative;
+        }
+
+        caption{
+            font-size: 1.5em;
+            padding: 10px;
+            background-color: lightgray;
         }
 
         thead, tfoot{
             background-color: gray;
             color: #fff;
+        }
+
+        /* Para grudar o th no topo da tela */
+        /* Quando a tabela não aparecer mais na tela, o efeito some. Isso acontece porque se aplica apenas à tabela, que é (relative) */
+        /* Não funciona em todos os navegadores (no Chrome e MS Edge sim) */
+        thead > tr > th{
+            position: sticky;
+            top: -1px;
+            background-color: #1b1b1b;
+        }
+
+        /* Efeito zebrado (vai de 2 em 2 nesse caso) */
+        /* Também poderia usar tr:nth-child(2n) (para os pares) */
+        tbody > tr:nth-child(even){
+            background-color: lightgray;
         }
 
         td, th{
@@ -37,6 +59,7 @@
     <!-- 
         ANATOMIA PARA TABELAS GRANDES
         TABLE
+            CAPTION => <caption> (funciona como um "thead")
             THEAD => <thead>
                 TH, TR, TD
             TBODY => <tbody>
@@ -46,9 +69,12 @@
      -->
 
      <table>
+
+        <caption>População das Unidades Federativas</caption>
+
         <thead>
-            <th>Estado</th>
-            <th>População</th>
+            <th scope="col">Estado</th>
+            <th scope="col" style="width: 50px;">População</th>
         </thead>
 
         <tbody>
@@ -168,7 +194,7 @@
 
         <tfoot>
             <tr>
-                <th>Total de Habitantes</th>
+                <th scope="row">Total de Habitantes</th>
                 <td class="num"><strong>207 883 699</strong></td>
             </tr>
         </tfoot>
