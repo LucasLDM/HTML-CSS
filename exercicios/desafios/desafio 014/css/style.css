@@ -1,0 +1,30 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+table{
+    border-collapse: collapse;
+}
+
+td, th{
+    border: 1px solid black;
+    padding: 10px;
+    text-align: center;
+}
+
+table > thead > tr{
+    background-color: #777777;
+    color: #fff;
+}
+
+.media-disciplina{
+    background-color: #777777;
+    color: #fff;
+    text-align: left;
+}
+
+.nota-disciplina{
+    text-align: center;
+    background-color: #777777;
+    color: #fff;
+}
